@@ -57,8 +57,8 @@
   --glow: 0 0 18px color-mix(in oklab, var(--accent) 8%, transparent);
   --gradient-ml: linear-gradient(135deg, var(--ml), color-mix(in oklab, var(--ml) 50%, var(--accent)));
   --gauge: linear-gradient(90deg, var(--safe), var(--warn) 60%, var(--danger));
-  --cursor-default: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M3%202l7%2019%202.6-7.4L20%2011z%22%20fill%3D%22%2300c8ff%22%20stroke%3D%22%230b0f17%22%20stroke-width%3D%221.5%22%20stroke-linejoin%3D%22round%22/%3E%3C/svg%3E") 3 2, default;
-  --cursor-pointer: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2228%22%20height%3D%2228%22%20viewBox%3D%220%200%2028%2028%22%3E%3Ccircle%20cx%3D%2214%22%20cy%3D%2214%22%20r%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%230b0f17%22%20stroke-width%3D%224%22/%3E%3Ccircle%20cx%3D%2214%22%20cy%3D%2214%22%20r%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%2300c8ff%22%20stroke-width%3D%222%22/%3E%3Cpath%20d%3D%22M14%201v6M14%2021v6M1%2014h6M21%2014h6%22%20stroke%3D%22%2300c8ff%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22/%3E%3Ccircle%20cx%3D%2214%22%20cy%3D%2214%22%20r%3D%222%22%20fill%3D%22%2300c8ff%22/%3E%3C/svg%3E") 14 14, pointer;
+  --cursor-default: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAgUlEQVR4nN2USw7AIAhE1fRQvf/KW9ktUZDhY2L61g2PGVNK+Rd9jOyRjZUkiioroLx1/cbAmoATBhLpgqCIj48MAqvDE3BLAIvIW1jrEBL5E8wIifIEVETYP5SlJqGiBx4ADpzxVWT4u/eC4JnQBQlSXXD82AU5LsBxnuyLEtzKB/6cMVOGKZMyAAAAAElFTkSuQmCC") 3 2, default;
+  --cursor-pointer: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAqklEQVR4nO2WQQ6AIAwEi/FR/v/Er/CiCSEtnfZgNLJHLLutbAsiWdTWpLYW3balBZNYgt8XLOEdmjOPgnm4IGkBIMx+Ke03EOdXOJJoVZCYC/MKKdG4PqmUu7QnvcdaTwyNYwtaZGP2NM4V9JIg6wr2zMTHULhfNGkiZ2N9V4xkV0hJAmIiXuMHGprGzs+QNnQgMTa8I052BgBzKb1+QNzj92Ee65n4W8ETrD5kJnjohIwAAAAASUVORK5CYII=") 14 14, pointer;
 }
 
 /* Light theme: html.light overrides the dark defaults. */
@@ -78,8 +78,8 @@ html.light {
   --gold: oklch(0.68 0.15 85);
   --terminal: oklch(0.965 0.008 250);
   --glow: 0 4px 18px color-mix(in oklab, var(--accent) 15%, transparent);
-  --cursor-default: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M3%202l7%2019%202.6-7.4L20%2011z%22%20fill%3D%22%230f172a%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%221.5%22%20stroke-linejoin%3D%22round%22/%3E%3C/svg%3E") 3 2, default;
-  --cursor-pointer: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2228%22%20height%3D%2228%22%20viewBox%3D%220%200%2028%2028%22%3E%3Ccircle%20cx%3D%2214%22%20cy%3D%2214%22%20r%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%224%22/%3E%3Ccircle%20cx%3D%2214%22%20cy%3D%2214%22%20r%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%230369a1%22%20stroke-width%3D%222%22/%3E%3Cpath%20d%3D%22M14%201v6M14%2021v6M1%2014h6M21%2014h6%22%20stroke%3D%22%230369a1%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22/%3E%3Ccircle%20cx%3D%2214%22%20cy%3D%2214%22%20r%3D%222%22%20fill%3D%22%230369a1%22/%3E%3C/svg%3E") 14 14, pointer;
+  --cursor-default: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAiElEQVR4nN2UOw7AIAxD6eeenXuizj1o1a4RJMT5IKF6Q0J+sREp5VfazvvN9lw5SCZo4QD0/FxHc8eiJgEHjCRSAVEQGx8xQquDE3BDIIOIU1jrkBK5E9SSEqUBKIieuw9lqUmqaEcNUMNaroosv7sLiK4JFZABVQHDl11UwwGwvCt7ngTT6gNmpjSDakxCDAAAAABJRU5ErkJggg==") 3 2, default;
+  --cursor-pointer: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAArklEQVR4nO2WsQ6AIAxEUfxPZ7/ImQ81OJEQUuhrB6ORG6HctXIthuBEPFKOR8rWc6tX0Isp+H3BxXpAcuZ17pgHB5IWIMLok9J+I3FqRi2JVAWJKRhWSIna9VGl2KU1aRlrNTE1TlewR9ZmT+NUQS0Jsi5h80x8Con7PZPGcje9fclI3QopiUUsBKXxLQ1NY4d3SBvakhhqVouTtQGAXEqnCIl7/D10Y/4m/lfwBt1udpzhNBSBAAAAAElFTkSuQmCC") 14 14, pointer;
 }
 
 @layer base {
