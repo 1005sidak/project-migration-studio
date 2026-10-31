@@ -55,8 +55,8 @@ export function Shell({ children }: { children: ReactNode }) {
           <button onClick={toggleDemo} aria-pressed={demo} title={demo ? "Demo Mode on" : "Demo Mode off"} className={clsx("flex items-center gap-1.5 rounded border px-2 py-1 font-mono text-[10px] font-semibold transition", demo ? "border-accent bg-accent/15 text-accent shadow-[var(--glow)]" : "border-border text-muted-foreground hover:text-foreground")}>
             <Monitor className="h-3.5 w-3.5" />DEMO
           </button>
-          <button onClick={toggleTheme} aria-label={light ? "Switch to dark theme" : "Switch to light theme"} title={light ? "Dark theme" : "Light theme"} className="rounded border p-1.5 text-muted-foreground transition hover:border-accent/50 hover:text-accent">
-            {light ? <Moon className="h-3.5 w-3.5" /> : <Sun className="h-3.5 w-3.5" />}
+          <button onClick={toggleTheme} aria-pressed={light} aria-label={light ? "Switch to dark theme" : "Switch to light theme"} title={light ? "Switch to dark theme" : "Switch to light theme"} className={clsx("flex items-center gap-1.5 rounded border px-2 py-1 font-mono text-[10px] font-semibold transition", light ? "border-warn/60 bg-warn/10 text-warn" : "border-border text-muted-foreground hover:border-accent/50 hover:text-accent")}>
+            {light ? <Moon className="h-3.5 w-3.5" /> : <Sun className="h-3.5 w-3.5" />}{light ? "DARK" : "LIGHT"}
           </button>
           <Settings className="ml-1 h-4 w-4 text-muted-foreground" />
         </div>
